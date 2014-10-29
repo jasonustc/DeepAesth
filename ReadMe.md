@@ -6,9 +6,10 @@ You can find the windows version of caffe project at [Caffe Windows]( https://gi
 
 ####**Usage**
 You have 3 choices to use this exe, first please open the cmd window and input one of the following commands:
-    >- ExtractDeepFeat.exe imagePath layerName
-    >- ExtractDeepFeat.exe indexFilePath layerName
-    >- ExtractDeepFeat.exe imageFolderPath layerName
+
+- ExtractDeepFeat.exe imagePath layerName
+- ExtractDeepFeat.exe indexFilePath layerName
+- ExtractDeepFeat.exe imageFolderPath layerName
     
 ####**input**
 - imagePath:  the absolute path of your image.
