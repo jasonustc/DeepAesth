@@ -12,13 +12,13 @@ You have 3 choices to use this exe, first please open the cmd window and input o
 - ExtractDeepFeat.exe imageFolderPath layerName
     
 ####**input**
-- imagePath:  the absolute path of your image.
-- indexFilePath: the index file of your images, which should be in txt format and one image path per line.
-- imageFolderPath: absolute path of your image folder, it will scan all the images in this folder and its sub folders.
-- layerName: the layer of the [DCNN](http://caffe.berkeleyvision.org/gathered/examples/feature_extraction.html) that you want to  extract feature of, including conv1 ~ conv5, pool1 ~ pool5, fc6 ~ fc8, prob(probability distribution of 1000 labels).
+- **imagePath**:  the absolute path of your image.
+- **indexFilePath**: the index file of your images, which should be in txt format and one image path per line.
+- **imageFolderPath**: absolute path of your image folder, it will scan all the images in this folder and its sub folders.
+- **layerName**: the layer of the [DCNN](http://caffe.berkeleyvision.org/gathered/examples/feature_extraction.html) that you want to  extract feature of, including conv1 ~ conv5, pool1 ~ pool5, fc6 ~ fc8, prob(probability distribution of 1000 labels).
 
 ####**output**
-- The deep learning feature of every image will be saved into the same path as the image and named by  "the image name" + ".feat" .
+- The deep learning feature of every image will be saved into a binary file with the same path as the image and named by  "the image name" + ".feat" .
 
 ####**sample command**
     ExtractDeepFeat.exe E:\\myimages fc7  
