@@ -6,7 +6,7 @@ You can find the windows version of caffe project at [Caffe Windows]( https://gi
 
 ####**Prerequisites**
 - Windows-64 bit
-- Please download the image net DCNN model file here: [DCNN models](http://dl.caffe.berkeleyvision.org/)  and put it into the same folder with the exe. Normally you should use the caffe_reference_imagenet_model here, and it's OK to use other models instead.
+- Please download the image net DCNN model file here: [DCNN models](http://dl.caffe.berkeleyvision.org/)  and put it into the same folder with the exe. Currently, we only support you to  use the caffe_reference_imagenet_model here.
 
 ####**Usage**
 Please remember to keep all the files or sub folders in the same folder with the exe.
