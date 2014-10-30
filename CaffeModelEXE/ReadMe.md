@@ -23,6 +23,7 @@ You have 3 choices to use this exe, first please open the cmd window and input o
 - **layerName**: the layer of the [DCNN](http://caffe.berkeleyvision.org/gathered/examples/feature_extraction.html) that you want to  extract feature of, including conv1 ~ conv5, pool1 ~ pool5, fc6 ~ fc8( normally we use fc7 to extract the 4096-D feature of images), prob(probability distribution of 1000 labels).
 
 ####**Output**
+- The format of the feature data is float.
 - The deep learning feature of every image will be saved into a binary file with the same path as the image and named by  "the image name" + ".feat" .
 
 ####**Sample command**
