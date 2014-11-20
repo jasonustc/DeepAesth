@@ -1,7 +1,7 @@
 The description of our algrithm is in Algorithm.Description.pptx
 
 0. Since it's very time-consuming to load the DCNN model, I recommand you to run step 2 to extract 
-   deep learning features of all images before step 3. But it's OK to run step 2 individually, and our
+   deep learning features of all images before step 3. But it's OK to run step 3 individually, and our
    DCNN_Aesth.exe will automatically extract deep learning features before quality assessment. 
 
 1. First please download the imagenet DCNN model caffe_reference_imagenet_model file here: http://dl.caffe.berkeleyvision.org/ and 
