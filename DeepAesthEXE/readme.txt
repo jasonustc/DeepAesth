@@ -1,8 +1,11 @@
-0. Since it's very time-consuming to load the DCNN model, I recommand you to run step 1 to extract 
-   deep learning features of all images before step 2. But it's OK to run step 2 individually, and our
+0. Since it's very time-consuming to load the DCNN model, I recommand you to run step 2 to extract 
+   deep learning features of all images before step 3. But it's OK to run step 2 individually, and our
    DCNN_Aesth.exe will automatically extract deep learning features before quality assessment. 
 
-1. Run ExtractDeepFeat.exe to get DCNN features of your images:
+1. First please download the imagenet DCNN model file here: http://dl.caffe.berkeleyvision.org/ and put it 
+   into the same folder with the ExtractDeepFeat.exe
+
+2. Run ExtractDeepFeat.exe to get DCNN features of your images:
 
    -- Open cmd window in the same folder with ExtractDeepFeat.exe
 
@@ -18,7 +21,7 @@
       the same path as the image and named by "the image name" + ".feat"
 
 
-2. You can evaluate the quality of images by:
+3. You can evaluate the quality of images by:
 
    -- Open cmd window in the same folder with DCNN_Aesth.exe
 
