@@ -37,4 +37,4 @@ This exe can only run on windows-64 bit system
    -- Sample commands:
       1. DCNN_Aesth.exe E:\\imageIndex.txt E:\\imageScores.txt
       2. DCNN_Aesth.exe E:\\yourImageFolder E:\\Scores.txt
-      3. DCNN_Aesth.exe E:\\yourImage E:\\yourimage.txt
+      3. DCNN_Aesth.exe E:\\yourImage.jpg E:\\yourimage.txt
